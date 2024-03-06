@@ -13,8 +13,13 @@ img {
   max-width: 100%;
 }
 
+.slide-wrapper {
+  overflow: hidden;
+}
+
 .slide {
   display: flex;
+  transition: .3s;
 }
 
 .slide li {
@@ -22,8 +27,4 @@ img {
   width: 80vw;
   max-width: 800px;
   margin: 0 20px;
-}
-
-.slide-wrapper {
-  overflow: hidden;
 }
