@@ -58,7 +58,6 @@ export class Slide {
     } else {
       this.changeSlide(this.index.active);
     }
-    console.log(this.dist.movement)
   }
 
   addSlideEvents() {
